@@ -20,6 +20,28 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "My Portfolio",
+    description: "Trang web Portfolio cá nhân hiện đại, giới thiệu kỹ năng và dự án của tôi. Sử dụng React, Vite và các hiệu ứng chuyển động cao cấp.",
+    fullDescription: "Đây là dự án Portfolio cá nhân được thiết kế với phong cách hiện đại, tối giản nhưng vẫn mang lại trải nghiệm người dùng ấn tượng qua các hiệu ứng glassmorphism, smooth scroll và micro-interactions. Trang web tích hợp đầy đủ thông tin giới thiệu, kỹ năng, các dự án thực tế và hệ thống liên hệ trực tuyến.",
+    date: "10/05/2026 - Hiện tại",
+    role: "Frontend Developer & UI Designer",
+    frontend: "ReactJS, Tailwind CSS, Framer Motion",
+    backend: "Formspree (Contact Form)",
+    image: "/portfolio/Screenshot 2026-05-10 174444.png",
+    images: [
+      "public/portfolio/Screenshot 2026-05-10 174444.png",
+      "public/portfolio/Screenshot 2026-05-10 174458.png",
+      "public/portfolio/Screenshot 2026-05-10 174505.png",
+      "public/portfolio/Screenshot 2026-05-10 183416.png",
+      "public/portfolio/Screenshot 2026-05-10 183428.png",
+      "public/portfolio/Screenshot 2026-05-10 183436.png",
+      "public/portfolio/Screenshot 2026-05-10 183444.png"
+    ],
+    tags: ["React", "Vite", "Tailwind", "Framer Motion", "UI/UX"],
+    links: { github: "https://github.com/toilagatau234/my_portfolio", live: "https://my-portfolio-sigma-one-32.vercel.app/" },
+    gridClass: "lg:col-span-2 lg:row-span-2"
+  },
+  {
     title: "Sandra Store",
     description: "Nền tảng thương mại điện tử MERN Stack. Tôi đảm nhận xây dựng toàn bộ mã nguồn Frontend, Backend và đồng thời thực hiện kiểm thử quy trình checkout chuyên sâu.",
     fullDescription: "Sandra Store là một nền tảng thương mại điện tử hoàn chỉnh được xây dựng trên MERN Stack. Dự án tập trung vào trải nghiệm mua sắm trực tuyến mượt mà và quản lý đơn hàng hiệu quả. Trong dự án này, tôi không chỉ tham gia phát triển từ Frontend đến Backend mà còn chịu trách nhiệm thiết lập và chạy các kịch bản kiểm thử đảm bảo quy trình thanh toán không xảy ra lỗi.",
@@ -40,7 +62,7 @@ const projects: Project[] = [
     ],
     tags: ["ReactJS", "Node.js", "MongoDB", "Manual Testing", "API Test"],
     links: { github: "https://github.com/toilagatau234/sandra_store", live: "https://sandra-store.vercel.app/" },
-    gridClass: "lg:col-span-2 lg:row-span-2"
+    gridClass: "lg:col-span-1 lg:row-span-1"
   },
   {
     title: "UDTMDT Project",

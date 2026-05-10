@@ -10,8 +10,8 @@ Welcome to my personal portfolio repository! This is a modern, high-performance 
 -   **Smooth Animations**: Fluid transitions and interactive elements powered by Framer Motion and Lenis scroll.
 -   **Interactive Project Gallery**: A custom-built project section with detailed modals for each project.
 -   **Dynamic UI Components**: Custom cursor, glassmorphism effects, and professional dark theme aesthetics.
--   **Contact Integration**: Direct links to social profiles and a professional contact section.
--   **CV Download**: Built-in functionality to view and download my professional CV.
+-   **Contact Integration**: Real-time email sending via **Web3Forms** (requires API key).
+-   **CV Download**: Direct access to professional CV in PDF format from Hero and Navbar.
 
 ## 🛠️ Tech Stack
 
