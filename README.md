@@ -1,68 +1,80 @@
-# Nova Portfolio - Modern Tech Student Portfolio
+# 🚀 Professional Portfolio - Nguyễn Quốc Anh
 
-A high-end, cinematic dark-themed portfolio designed for Computer Science students applying for Internships or Fresher positions.
+Welcome to my personal portfolio repository! This is a modern, high-performance portfolio website built with **React**, **Vite**, and **Framer Motion**, showcasing my work as a Software Development & Quality Assurance (QC) Engineer.
 
-## 🚀 Tech Stack
+![Portfolio Preview](public/profile.jpg)
 
-- **React 19 & Vite**: Ultra-fast frontend development.
-- **Tailwind CSS 4**: Modern utility-first styling.
-- **Framer Motion (motion/react)**: Cinematic scroll-based animations and transitions.
-- **Lenis**: Smooth scrolling for a premium UX.
-- **Lucide React**: Clean and consistent iconography.
-- **Dark Luxury Aesthetic**: Deep tones, glassmorphism, and neon subtle glows.
+## ✨ Features
 
-## ✨ Key Features
+-   **Responsive Design**: Fully optimized for all screen sizes from mobile to desktop.
+-   **Smooth Animations**: Fluid transitions and interactive elements powered by Framer Motion and Lenis scroll.
+-   **Interactive Project Gallery**: A custom-built project section with detailed modals for each project.
+-   **Dynamic UI Components**: Custom cursor, glassmorphism effects, and professional dark theme aesthetics.
+-   **Contact Integration**: Direct links to social profiles and a professional contact section.
+-   **CV Download**: Built-in functionality to view and download my professional CV.
 
-- **Cinematic Hero**: Impactful entrance with animated typography and profile visuals.
-- **Bento Grid Projects**: Modern layout showcasing technical work with depth.
-- **Technical Arsenal**: Grid-based skills section with a "hacker style" terminal mockup.
-- **Interactive Roadmap**: Storytelling about section with a vertical timeline.
-- **Full Responsiveness**: Optimized for Mobile, Tablet, and Desktop.
-- **Glassmorphism UI**: High-gloss, blurred surfaces for a depth-rich experience.
-- **Custom Cursor**: Magnetic feedback and premium micro-interactions.
+## 🛠️ Tech Stack
 
-## 🛠️ Project Structure
+-   **Frontend**: React 19, TypeScript
+-   **Styling**: Tailwind CSS 4.0
+-   **Animations**: Framer Motion, Lenis (Smooth Scroll)
+-   **Icons**: Lucide React
+-   **Build Tool**: Vite
+
+## 📂 Project Structure
 
 ```text
-src/
-├── components/     # Reusable UI parts (Navbar, Footer, SmoothScroll, etc.)
-├── sections/       # Main landing page segments (Hero, Projects, Skills, etc.)
-├── hooks/          # Custom React hooks (if needed)
-├── lib/            # Utility functions (cn helper)
-└── App.tsx         # Main application assembly
+├── public/              # Static assets (Images, CV PDF)
+├── src/
+│   ├── components/      # Reusable UI components (Navbar, Footer, etc.)
+│   ├── sections/        # Main page sections (Hero, About, Projects, etc.)
+│   ├── lib/             # Utility functions
+│   ├── App.tsx          # Main application component
+│   └── main.tsx         # Entry point
+├── index.html           # HTML template
+├── tailwind.config.js   # Tailwind CSS configuration
+└── package.json         # Dependencies and scripts
 ```
 
-## 📦 Setup & Installation
+## 🚀 Getting Started
 
-1. **Clone & Install**:
-   ```bash
-   npm install
-   ```
+To get a local copy up and running, follow these simple steps:
 
-2. **Development**:
-   ```bash
-   npm run dev
-   ```
+### Prerequisites
 
-3. **Build**:
-   ```bash
-   npm run build
-   ```
+*   Node.js (v18 or higher)
+*   npm or yarn
 
-## 🚀 Deployment (Vercel)
+### Installation
 
-1. Push your code to a **GitHub repository**.
-2. Go to [Vercel](https://vercel.com).
-3. Import your repository and click **Deploy**.
-   - Output Directory: `dist`
-   - Build Command: `npm run build`
-   - Install Command: `npm install`
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/toilagatau234/my_portfolio.git
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Run the development server:
+    ```bash
+    npm run dev
+    ```
+4.  Open `http://localhost:3000` in your browser.
 
-## 👤 Personalization
+## 📁 Key Projects Showcased
 
-- Update the data in `src/sections/` files to match your own details.
-- Substitute the images in `src/sections/Hero.tsx` and `src/sections/Projects.tsx` with your own links.
-- Modify theme colors in `src/index.css`.
+1.  **Sandra Store**: Full-stack MERN e-commerce platform with automated testing focus.
+2.  **UDTMDT Project**: Practical E-commerce website with UI/UX and Security testing.
+3.  **Library System**: Desktop/Web management system using C# and SQL Server.
+4.  **TTTN Capstone**: Graduation internship project, a comprehensive web application.
+5.  **Lập Trình Web**: Foundation project focusing on HTML/CSS/JS and cross-browser compatibility.
+
+## 📧 Contact
+
+-   **Name**: Nguyễn Quốc Anh
+-   **Education**: Vietnam Aviation Academy (Học viện Hàng không Việt Nam)
+-   **GitHub**: [@toilagatau234](https://github.com/toilagatau234)
+-   **Portfolio**: [View Live](http://localhost:3000)
 
 ---
-*Created with ❤️ for future Software Engineers.*
+Developed with ❤️ by Nguyễn Quốc Anh
