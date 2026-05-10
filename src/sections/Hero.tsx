@@ -107,7 +107,6 @@ export default function Hero() {
                 transition={{ duration: 1.5, ease: [0.33, 1, 0.68, 1] }}
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
-                loading="lazy"
               />
               
               {/* Cinematic Shine Effect */}
