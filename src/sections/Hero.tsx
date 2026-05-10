@@ -44,15 +44,6 @@ export default function Hero() {
             >
               Kết Nối Ngay
             </motion.a>
-            <motion.a
-              href="/Nguyen-Quoc-Anh-CV.pdf"
-              download="Nguyen-Quoc-Anh-CV.pdf"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="h-12 px-8 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 text-white font-semibold flex items-center gap-2 transition-all group"
-            >
-              <Download size={18} className="group-hover:translate-y-0.5 transition-transform" /> Tải CV
-            </motion.a>
           </div>
         </motion.div>
           

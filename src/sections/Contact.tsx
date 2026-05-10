@@ -6,38 +6,22 @@ export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
 
-  const FORMSPREE_ENDPOINT = "https://formspree.io/f/mbdwpzqb";
-
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    const formData = new FormData(e.currentTarget);
-
-    try {
-      const response = await fetch(FORMSPREE_ENDPOINT, {
-        method: "POST",
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
-      });
-
-      if (response.ok) {
-        setIsSuccess(true);
-        (e.target as HTMLFormElement).reset();
-        setTimeout(() => setIsSuccess(false), 5000);
-      } else {
-        const data = await response.json();
-        console.error("Error", data);
-        alert("Có lỗi xảy ra khi gửi tin nhắn. Vui lòng thử lại sau.");
-      }
-    } catch (error) {
-      console.error("Error", error);
-      alert("Không thể kết nối với máy chủ. Vui lòng kiểm tra kết nối mạng.");
-    } finally {
+    // Simulate sending an email/message
+    setTimeout(() => {
       setIsSubmitting(false);
-    }
+      setIsSuccess(true);
+      
+      const form = e.target as HTMLFormElement;
+      form.reset();
+
+      setTimeout(() => {
+        setIsSuccess(false);
+      }, 3000);
+    }, 1500);
   };
 
   return (
@@ -152,7 +136,6 @@ export default function Contact() {
                   <label className="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1 group-focus-within:text-brand-cyan transition-colors">Họ và tên</label>
                   <input 
                     type="text" 
-                    name="Họ tên"
                     required
                     placeholder="Nguyễn Văn A" 
                     className="w-full px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white placeholder:text-gray-600 focus:outline-none focus:border-brand-cyan focus:ring-1 focus:ring-brand-cyan/50 hover:bg-white/10 transition-all"
@@ -162,7 +145,6 @@ export default function Contact() {
                   <label className="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1 group-focus-within:text-brand-cyan transition-colors">Địa chỉ Email</label>
                   <input 
                     type="email" 
-                    name="Email"
                     required
                     placeholder="email@vidu.com" 
                     className="w-full px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white placeholder:text-gray-600 focus:outline-none focus:border-brand-cyan focus:ring-1 focus:ring-brand-cyan/50 hover:bg-white/10 transition-all"
@@ -174,7 +156,6 @@ export default function Contact() {
                 <label className="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1 group-focus-within:text-brand-cyan transition-colors">Chủ đề</label>
                 <input 
                   type="text" 
-                  name="Chủ đề"
                   required
                   placeholder="Yêu cầu thực tập" 
                   className="w-full px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white placeholder:text-gray-600 focus:outline-none focus:border-brand-cyan focus:ring-1 focus:ring-brand-cyan/50 hover:bg-white/10 transition-all"
@@ -185,7 +166,6 @@ export default function Contact() {
                 <label className="text-xs font-bold uppercase tracking-widest text-gray-500 ml-1 group-focus-within:text-brand-cyan transition-colors">Lời nhắn</label>
                 <textarea 
                   rows={5} 
-                  name="Lời nhắn"
                   required
                   placeholder="Hãy kể cho tôi nghe về dự án của bạn..." 
                   className="w-full px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white placeholder:text-gray-600 focus:outline-none focus:border-brand-cyan focus:ring-1 focus:ring-brand-cyan/50 hover:bg-white/10 transition-all resize-none"
