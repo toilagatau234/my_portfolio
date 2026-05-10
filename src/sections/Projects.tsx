@@ -20,6 +20,28 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "My Portfolio",
+    description: "Trang web Portfolio cá nhân hiện đại, giới thiệu kỹ năng và dự án của tôi. Sử dụng React, Vite và các hiệu ứng chuyển động cao cấp.",
+    fullDescription: "Đây là dự án Portfolio cá nhân được thiết kế với phong cách hiện đại, tối giản nhưng vẫn mang lại trải nghiệm người dùng ấn tượng qua các hiệu ứng glassmorphism, smooth scroll và micro-interactions. Trang web tích hợp đầy đủ thông tin giới thiệu, kỹ năng, các dự án thực tế và hệ thống liên hệ trực tuyến.",
+    date: "10/05/2026 - Hiện tại",
+    role: "Frontend Developer & UI Designer",
+    frontend: "ReactJS, Tailwind CSS, Framer Motion",
+    backend: "Formspree (Contact Form)",
+    image: "/portfolio/Screenshot 2026-05-10 174444.png",
+    images: [
+      "public/portfolio/Screenshot 2026-05-10 174444.png",
+      "public/portfolio/Screenshot 2026-05-10 174458.png",
+      "public/portfolio/Screenshot 2026-05-10 174505.png",
+      "public/portfolio/Screenshot 2026-05-10 183416.png",
+      "public/portfolio/Screenshot 2026-05-10 183428.png",
+      "public/portfolio/Screenshot 2026-05-10 183436.png",
+      "public/portfolio/Screenshot 2026-05-10 183444.png"
+    ],
+    tags: ["React", "Vite", "Tailwind", "Framer Motion", "UI/UX"],
+    links: { github: "https://github.com/toilagatau234/my_portfolio", live: "https://my-portfolio-sigma-one-32.vercel.app/" },
+    gridClass: "lg:col-span-2 lg:row-span-2"
+  },
+  {
     title: "Sandra Store",
     description: "Nền tảng thương mại điện tử MERN Stack. Tôi đảm nhận xây dựng toàn bộ mã nguồn Frontend, Backend và đồng thời thực hiện kiểm thử quy trình checkout chuyên sâu.",
     fullDescription: "Sandra Store là một nền tảng thương mại điện tử hoàn chỉnh được xây dựng trên MERN Stack. Dự án tập trung vào trải nghiệm mua sắm trực tuyến mượt mà và quản lý đơn hàng hiệu quả. Trong dự án này, tôi không chỉ tham gia phát triển từ Frontend đến Backend mà còn chịu trách nhiệm thiết lập và chạy các kịch bản kiểm thử đảm bảo quy trình thanh toán không xảy ra lỗi.",
@@ -27,20 +49,20 @@ const projects: Project[] = [
     role: "Frontend, Backend Developer & Tester",
     frontend: "ReactJS, Tailwind CSS",
     backend: "Node.js, Express, MongoDB",
-    image: "/Picture1.sandra.png",
+    image: "/sandra/Picture1.sandra.png",
     images: [
-      "/Picture2.sandra.png",
-      "/Picture3.sandra.png",
-      "/Picture4.sandra.png",
-      "/Picture5.sandra.png",
-      "/Picture6.sandra.png",
-      "/Picture7.sandra.png",
-      "/Picture8.sandra.png",
-      "/Picture9.sandra.png"
+      "/sandra/Picture2.sandra.png",
+      "/sandra/Picture3.sandra.png",
+      "/sandra/Picture4.sandra.png",
+      "/sandra/Picture5.sandra.png",
+      "/sandra/Picture6.sandra.png",
+      "/sandra/Picture7.sandra.png",
+      "/sandra/Picture8.sandra.png",
+      "/sandra/Picture9.sandra.png"
     ],
     tags: ["ReactJS", "Node.js", "MongoDB", "Manual Testing", "API Test"],
     links: { github: "https://github.com/toilagatau234/sandra_store", live: "https://sandra-store.vercel.app/" },
-    gridClass: "lg:col-span-2 lg:row-span-2"
+    gridClass: "lg:col-span-1 lg:row-span-1"
   },
   {
     title: "UDTMDT Project",
@@ -50,17 +72,17 @@ const projects: Project[] = [
     role: "Frontend Developer & Tester",
     frontend: "ReactJS, Bootstrap",
     backend: "Node.js, Express, MongoDB",
-    image: "/Picture1.UDTMDT.png",
+    image: "/UDTMDT/Picture1.UDTMDT.png",
     images: [
-      "/Picture2.UDTMDT.png",
-      "/Picture3.UDTMDT.png",
-      "/Picture4.UDTMDT.png",
-      "/Picture5.UDTMDT.png",
-      "/Picture6.UDTMDTpng.png",
-      "/Picture7.UDTMDT.png",
-      "/Picture8.UDTMDT.png",
-      "/Picture9.UDTMDTpng.png",
-      "/Picture10.UDTMDT.png"
+      "/UDTMDT/Picture2.UDTMDT.png",
+      "/UDTMDT/Picture3.UDTMDT.png",
+      "/UDTMDT/Picture4.UDTMDT.png",
+      "/UDTMDT/Picture5.UDTMDT.png",
+      "/UDTMDT/Picture6.UDTMDTpng.png",
+      "/UDTMDT/Picture7.UDTMDT.png",
+      "/UDTMDT/Picture8.UDTMDT.png",
+      "/UDTMDT/Picture9.UDTMDTpng.png",
+      "/UDTMDT/Picture10.UDTMDT.png"
     ],
     tags: ["MERN Stack", "Jira", "QA/QC", "Web Security"],
     links: { github: "https://github.com/toilagatau234/UDTMDT", live: "https://udtmdt.vercel.app/" },
@@ -74,16 +96,16 @@ const projects: Project[] = [
     role: "Backend Developer & Tester",
     frontend: "Windows Forms (C#)",
     backend: ".NET, SQL Server",
-    image: "/Picture1.OOP.png",
+    image: "/OOP/Picture1.OOP.png",
     images: [
-      "/Picture2.OOP.png",
-      "/Picture3.OOP.png",
-      "/Picture4.OOP.png",
-      "/Picture5.OOP.png",
-      "/Picture6.OOP.png",
-      "/Picture7.OOPpng.png",
-      "/Picture8.OOP.png",
-      "/Picture9.OOP.png"
+      "/OOP/Picture2.OOP.png",
+      "/OOP/Picture3.OOP.png",
+      "/OOP/Picture4.OOP.png",
+      "/OOP/Picture5.OOP.png",
+      "/OOP/Picture6.OOP.png",
+      "/OOP/Picture7.OOPpng.png",
+      "/OOP/Picture8.OOP.png",
+      "/OOP/Picture9.OOP.png"
     ],
     tags: ["C#", "SQL Server", "OOP", "Functional Test"],
     links: { github: "https://github.com/toilagatau234/library_system_OOP_SQL-server", live: "#" },
@@ -97,17 +119,17 @@ const projects: Project[] = [
     role: "Frontend, Backend Developer & Tester",
     frontend: "ReactJS, Tailwind CSS",
     backend: "Node.js, Express, PostgreSQL",
-    image: "/Picture1.TTTN.png",
+    image: "/TTTN/Picture1.TTTN.png",
     images: [
-      "/Picture2.TTTN.png",
-      "/Picture3.TTTN.png",
-      "/Picture4.TTTN.png",
-      "/Picture5.TTTN.png",
-      "/Picture6.TTTN.png",
-      "/Picture7.TTTN.png",
-      "/Picture8.TTTN.png",
-      "/Picture9.TTTN.png",
-      "/Picture10.TTTN.png"
+      "/TTTN/Picture2.TTTN.png",
+      "/TTTN/Picture3.TTTN.png",
+      "/TTTN/Picture4.TTTN.png",
+      "/TTTN/Picture5.TTTN.png",
+      "/TTTN/Picture6.TTTN.png",
+      "/TTTN/Picture7.TTTN.png",
+      "/TTTN/Picture8.TTTN.png",
+      "/TTTN/Picture9.TTTN.png",
+      "/TTTN/Picture10.TTTN.png"
     ],
     tags: ["React", "API", "Testing Framework", "Agile"],
     links: { github: "https://github.com/toilagatau234/TTTN", live: "#" },
@@ -121,17 +143,17 @@ const projects: Project[] = [
     role: "Frontend Developer & Tester",
     frontend: "HTML, CSS, JavaScript",
     backend: "PHP",
-    image: "/Picture1.LTW.png",
+    image: "/LTW/Picture1.LTW.png",
     images: [
-      "/Picture2.LTW.png",
-      "/Picture3.LTW.png",
-      "/Picture4.LTW.png",
-      "/Picture5.LTW.png",
-      "/Picture6.LTW.png",
-      "/Picture7.LTW.png",
-      "/Picture8.LTW.png",
-      "/Picture9.LTW.png",
-      "/Picture10.LTW.png"
+      "/LTW/Picture2.LTW.png",
+      "/LTW/Picture3.LTW.png",
+      "/LTW/Picture4.LTW.png",
+      "/LTW/Picture5.LTW.png",
+      "/LTW/Picture6.LTW.png",
+      "/LTW/Picture7.LTW.png",
+      "/LTW/Picture8.LTW.png",
+      "/LTW/Picture9.LTW.png",
+      "/LTW/Picture10.LTW.png"
     ],
     tags: ["HTML/CSS", "JavaScript", "Manual Test"],
     links: { github: "https://github.com/toilagatau234/LAP_TRINH_WEB", live: "#" },
@@ -315,7 +337,7 @@ export default function Projects() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 100, scale: 0.95 }}
               transition={{ type: "spring", damping: 25, stiffness: 300 }}
-              className="fixed inset-4 md:inset-10 lg:inset-x-[15%] lg:inset-y-10 z-[101] flex flex-col glass border border-white/10 rounded-3xl overflow-hidden shadow-2xl"
+              className="fixed inset-4 md:inset-10 lg:inset-0 lg:max-w-4xl lg:max-h-[80vh] lg:m-auto z-[101] flex flex-col glass border border-white/10 rounded-3xl overflow-hidden shadow-2xl"
             >
               <button 
                 onClick={() => setSelectedProject(null)}

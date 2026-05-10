@@ -84,8 +84,9 @@ export default function Navbar() {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="/Nguyen-Quoc-Anh-intern-tester(2).pdf"
-            download="Nguyen-Quoc-Anh-intern-tester(2).pdf"
+            href="/Nguyen-Quoc-Anh-CV.pdf"
+            download="Nguyen-Quoc-Anh-CV.pdf"
+            type="application/pdf"
             className="px-4 py-2 bg-white text-black rounded-full text-xs font-bold hover:bg-slate-200"
           >
             Tải CV.pdf
