@@ -133,7 +133,7 @@ const projects: Project[] = [
     ],
     tags: ["React", "API", "Testing Framework", "Agile"],
     links: { github: "https://github.com/toilagatau234/TTTN", live: "#" },
-    gridClass: "lg:col-span-1 lg:row-span-1"
+    gridClass: "lg:col-span-2 lg:row-span-1"
   },
   {
     title: "LAP TRINH WEB",
